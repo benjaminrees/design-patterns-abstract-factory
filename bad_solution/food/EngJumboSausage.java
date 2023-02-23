@@ -1,0 +1,11 @@
+package bad_solution.food;
+
+public class EngJumboSausage extends Food {
+
+    public EngJumboSausage() {
+        name = "jumbo sausage";
+        requiresBatter = true;
+        condiments.add("salt");
+        condiments.add("vinegar");
+    }
+}
