@@ -1,20 +1,21 @@
 package solution.shop;
 
-import solution.food.Food;
+import solution.food.Supper;
 
 public abstract class Chippy {
+  // this is the factory
 
-    abstract Food createFood(String type);
+    public abstract Supper createFood(String type);
 
-    public Food orderFood(String type) {
-        Food food = createFood(type);
+    public Supper orderFood(String type) {
+        Supper food = createFood(type);
         if (food == null) {
             return null;
         }
         System.out.println("##########");
         System.out.println("Beginning new order");
+        food.prepare();
 
-        food.cook();
         return food;
     }
 }
