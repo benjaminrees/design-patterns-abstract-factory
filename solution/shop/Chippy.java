@@ -1,13 +1,13 @@
 package solution.shop;
 
-import solution.food.Food;
+import solution.food.Chips;
 
 public abstract class Chippy {
 
-    abstract Food createFood(String type);
+    abstract Chips createFood(String type);
 
-    public Food orderFood(String type) {
-        Food food = createFood(type);
+    public Chips orderFood(String type) {
+        Chips food = createFood(type);
         if (food == null) {
             return null;
         }

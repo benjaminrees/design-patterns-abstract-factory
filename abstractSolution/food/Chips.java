@@ -1,8 +1,8 @@
-package solution.food;
+package abstractSolution.food;
 
 import java.util.ArrayList;
 
-public abstract class Food {
+public abstract class Chips extends Food {
     String name;
     boolean requiresBatter;
     ArrayList<String> condiments = new ArrayList<String>();

@@ -1,15 +1,14 @@
-package solution;
+package abstractSolution;
 
-import solution.food.Chips;
-import solution.shop.Chippy;
-import solution.shop.EdiChippy;
-import solution.shop.EngChippy;
+import abstractSolution.food.Chips;
+import abstractSolution.shop.EdiChippy;
+import abstractSolution.shop.EngChippy;
 
 public class RunShop {
 
     public static void main(String[] args) {
 
-        Chippy engChippy = new EngChippy();
+        EngChippy engChippy = new EngChippy();
         Chippy ediChippy = new EdiChippy();
 
         Chips food;

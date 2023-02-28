@@ -1,4 +1,4 @@
-package solution.food;
+package abstractSolution.food;
 
 public class EdiChips extends Chips {
 
