@@ -1,5 +1,5 @@
 package solution.ingredients;
 
-public class Fish {
+public abstract class Fish {
 
 }
