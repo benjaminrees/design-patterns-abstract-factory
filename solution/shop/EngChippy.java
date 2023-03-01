@@ -2,6 +2,7 @@ package solution.shop;
 
 import solution.food.EngSupper;
 import solution.food.Supper;
+import solution.ingredients.EngIngredientFactory;
 
 public class EngChippy extends Chippy {
 

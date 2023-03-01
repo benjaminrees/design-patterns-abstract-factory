@@ -1,8 +1,8 @@
 package solution.food;
 
+import solution.ingredients.Fish;
+import solution.ingredients.Salt;
 import solution.shop.IngredientFactory;
-import solution.shop.Salt;
-import solution.shop.Fish;
 
 public class EngSupper extends Supper {
   IngredientFactory ingredientFactory;

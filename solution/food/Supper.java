@@ -2,10 +2,10 @@ package solution.food;
 
 import java.util.ArrayList;
 
-import solution.shop.Fish;
-import solution.shop.Salt;
-import solution.shop.Sauce;
-import solution.shop.Vinegar;
+import solution.ingredients.Fish;
+import solution.ingredients.Salt;
+import solution.ingredients.Sauce;
+import solution.ingredients.Vinegar;
 
 public abstract class Supper {
     String name;

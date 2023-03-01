@@ -1,15 +1,17 @@
-package solution.shop;
+package solution.ingredients;
 
-public class EdinburghIngredientFactory implements IngredientFactory {
+import solution.shop.IngredientFactory;
+
+public class EngIngredientFactory implements IngredientFactory {
 
   @Override
   public Fish createFish() {
-    return new Cod();
+    return new Haddock();
   }
 
   @Override
   public Sauce createSauce() {
-    return new ChippySauce();
+    return new TartareSauce();
   }
 
   @Override

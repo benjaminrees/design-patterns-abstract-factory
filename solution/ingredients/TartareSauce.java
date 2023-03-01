@@ -1,4 +1,4 @@
-package solution.shop;
+package solution.ingredients;
 
 public class TartareSauce extends Sauce {
   
